@@ -1,35 +1,36 @@
-![Playwright](https://img.shields.io/badge/Tested%20with-Playwright-2EAD33)
-![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+# Reto Técnico QA Engineer - SEEK
 
-# QA Automation - OSSN Demo (Playwright)
+Automatización End-to-End desarrollada como parte del proceso técnico para el rol de QA Engineer.
 
-Automatización E2E desarrollada como parte del Reto Técnico QA Engineer,
-sobre el entorno público de staging:
+Aplicación probada: OSSN Demo  
+https://demo.opensource-socialnetwork.org/login
 
-https://www.opensource-socialnetwork.org/demo
+---
+
+## Tecnologías utilizadas
+
+- Playwright
+- TypeScript
+- Node.js
+- Page Object Model (POM)
 
 ---
 
 ## Casos Automatizados
 
-- AT-001 / TC-002: Login exitoso
-- AT-002 / TC-004: Publicación con imagen + descripción
-
-Framework: Playwright  
-Lenguaje: TypeScript  
-Patrón: Page Object Model (POM)
+- AT-001 / TC-002 – Login exitoso
+- AT-002 / TC-004 – Publicación con imagen y descripción
 
 ---
 
-## Requisitos
-
-- Node.js 18+
-- npm
-
----
-
-## Instalación
-
-```bash
-npm install
-npx playwright install
+## Estructura del Proyecto
+qa-automation-ossn/
+│
+├── pages/ # Page Objects
+├── tests/ # Casos automatizados
+├── test-data/ # Datos externos
+├── assets/ # Imagen de prueba
+├── playwright.config.ts
+├── tsconfig.json
+├── package.json
+└── README.md
