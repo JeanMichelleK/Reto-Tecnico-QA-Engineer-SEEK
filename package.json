@@ -1,0 +1,24 @@
+{
+  "name": "qa-automation-ossn",
+  "version": "1.0.0",
+  "description": "QA Automation - OSSN Demo - Reto Técnico QA Engineer",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "e2e"
+  ],
+  "author": "Michelle Kabillón",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.2",
+    "dotenv": "^16.6.1"
+  }
+}
