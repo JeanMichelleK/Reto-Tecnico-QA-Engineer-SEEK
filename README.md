@@ -1,3 +1,6 @@
+![Playwright](https://img.shields.io/badge/Tested%20with-Playwright-2EAD33)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+
 # QA Automation - OSSN Demo (Playwright)
 
 Automatización E2E desarrollada como parte del Reto Técnico QA Engineer,
